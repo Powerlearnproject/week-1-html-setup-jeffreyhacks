@@ -1,1 +1,90 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EXPENSE TRACKER</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="Expenses" content="expense tracking" />
+  <link rel="stylesheet" href="index.css" />
+  <style>
+    table th, td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+}
+
+.sub{
+    background-color: green;
+}
+.res{
+    background-color: red;
+}
+p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+  </style>
+</head>
+<body>
+  <h1>EXPENSE TRACKING APP</h1>
+   <p>At times expenses get out of hand and you might not be 
+    able to keep track of them.
+    This app will help you keep track of your expenses.
+    </p>
+    <p>
+    This app will help you keep track of your expenses.
+   </p>
+   <img src="https://media.istockphoto.com/id/185782615/photo/woman-with-debts.jpg?s=1024x1024&w=is&k=20&c=YFNm-QRV59IkO57SZfaj7qgbOE8cGZZxTpJ79NzP8ec=" alt="stressed out">
+      <form>
+        <label for="fname">FIRST NAME</label>
+        <input type="text" id="fname" name="fname"/><br>
+        <label for="lname">LAST NAME</label>
+        <input type="text" id="lname" name="lname"/><br>
+        <label for="email">EMAIL</label>
+        <input type="text" id="email" name="email"/><br>
+        <label for="password">PASSWORD</label>
+        <input type="text" id="password" name="password"/><br>
+        <input type="submit" value="Submit" class="sub" />
+        <input type="reset" value="Reset" class="res" />
+      </form>
+          <table style="border: 1px solid black;border-collapse: collapse;">
+            <tr>
+              <th>FIRST NAME</th>
+              <th>LAST NAME</th>
+              <th>EMAIL</th>
+              <th>PASSWORD</th>
+            </tr>
+            <tr>
+              <td>Jeffrey</td>
+              <td>Hacks</td>
+              <td>jeffreyhacks</td>
+              <td>123456</td>
+            </tr>
+            <tr>
+              <td>Alice</td>
+              <td>Hacks</td>
+              <td>ALICEHACKS@HOTMAIL,COM</td>
+              <td>076543127</td>
+            </tr>
+            <tr>
+              <td>JOHN</td>
+              <td>HOPE</td>
+              <td>johnhope@gmail.com</td>
+              <td>090342167</td>
+            </tr>
+          </table><br>
+    <a href="www.google.com">VISIT GOOGLE</a>
+</body>
+</html>

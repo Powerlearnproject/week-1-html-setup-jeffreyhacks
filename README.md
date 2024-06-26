@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Dr_CRy30)
 # Introduction to HTML
 
 ## Description:
@@ -7,16 +8,16 @@ In this week, you will set up a basic HTML template for the Expense Tracker Appl
         Design a basic HTML template for the Expense Tracker Application interface.
         Your page should include the below:
 
-        1. title
-        2. meta tag for display
-        3. meta tag for character set
-        4. header
-        5. heading
-        6. paragraph
-        7. basic registration form
-        8. table displaying common user information: name, email, phone number.
-        9. an image
-        10. an external link to https://google.com
+        1. title done
+        2. meta tag for display DONE
+        3. meta tag for character set DONE
+        4. header DONE
+        5. heading DONE 
+        6. paragraph DONE
+        7. basic registration form DONE
+        8. table displaying common user information: name, email, phone number. DONE
+        9. an image DONE
+        10. an external link to https://google.com DONE
         
 
 ### Submission:
