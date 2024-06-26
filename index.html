@@ -6,6 +6,36 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="Expenses" content="expense tracking" />
   <link rel="stylesheet" href="index.css" />
+  <style>
+    table th, td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+}
+
+.sub{
+    background-color: green;
+}
+.res{
+    background-color: red;
+}
+p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+  </style>
 </head>
 <body>
   <h1>EXPENSE TRACKING APP</h1>
@@ -29,7 +59,7 @@
         <input type="submit" value="Submit" class="sub" />
         <input type="reset" value="Reset" class="res" />
       </form>
-          <table >
+          <table style="border: 1px solid black;border-collapse: collapse;">
             <tr>
               <th>FIRST NAME</th>
               <th>LAST NAME</th>
